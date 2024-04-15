@@ -1,0 +1,36 @@
+.form {
+  width: 100vw;
+  height: 80px;
+  background: #246ec2;
+  margin-bottom: 25px;
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+}
+
+.form input {
+  width: 300px;
+  max-width: 30%;
+  padding: 4px 8px;
+  height: 25px;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.search {
+  cursor: pointer;
+  padding: 8px 15px;
+  color: rgb(11, 11, 11);
+  font-size: 14px;
+  border: 2px #000000;
+  border-radius: 8px;
+  background: #d6d6d6;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.search:hover {
+  color: rgb(238, 242, 233);
+  background: #001172;
+}

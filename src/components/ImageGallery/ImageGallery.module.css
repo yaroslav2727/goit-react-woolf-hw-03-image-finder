@@ -1,0 +1,13 @@
+.gallery {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto 32px;
+  padding: 0;
+}
+
+.gallery li {
+    flex-basis: calc((100% - 100px) / 4);
+}
